@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  color: #333;
+  background-color: rgb(68, 244, 247);
+}
+.navbar {
+  background-color: rgb(53, 108, 226);
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #043796;
+  position: fixed;
+  z-index: 1;
+}
+.navbar h1 {
+  background-color: rgb(53, 108, 226);
+  color: #d5dce9;
+}
+.navbar .links {
+  background-color: rgb(53, 108, 226);
+  margin-right: auto;
+}
+.navbar a {
+  background-color: rgb(53, 108, 226);
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #d5dce9;
+}
+.container {
+  padding: 100px;
+  position: relative;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.education h2 {
+  padding: 10px;
+  color: maroon;
+}
+.education p {
+  padding: 10px;
+  color: maroon;
+}
+.prog h2 {
+  color: maroon;
+  padding: 10px;
+}
+.prog ul {
+  color: maroon;
+}
+.hobbies h2 {
+  margin: 40px;
+  padding: 20px;
+  color: rgb(54, 4, 119);
+}
+.hobbies p {
+  margin: 40px;
+  padding: 20px;
+  color: rgb(54, 4, 119);
+}
