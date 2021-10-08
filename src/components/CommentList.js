@@ -1,6 +1,4 @@
-import { useState } from 'react';
-
-const Comments = () => {
+const CommentList = ({ comments }) => {
   return (
     <div className='container'>
       <h1>Comments</h1>
@@ -14,4 +12,4 @@ const Comments = () => {
   );
 };
 
-export default Comments;
+export default CommentList;
