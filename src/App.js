@@ -1,7 +1,8 @@
 import Education from './components/Education';
 import Navbar from './components/Navbar';
 import Programming from './components/Programming';
-import Hobbies from './components/Hobbies';
+import Comment from './components/Comments';
+import Comments from './components/Comments';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <div className='container'>
         <Education />
         <Programming />
-        <Hobbies />
+        <Comments />
       </div>
     </div>
   );
